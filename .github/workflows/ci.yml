@@ -18,4 +18,4 @@ jobs:
       run: echo "Hello, GitHub Actions! This is my first workflow!"
       
     - name: Show date
-      run: da
+      run: date
