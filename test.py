@@ -1,7 +1,7 @@
 import pytest
 from new_file import my_sum
 
-@pytest.mark.parametrize("a, b", [
+@pytest.mark.parametrize("a, b, sum_ab", [
     [1, 2, 3],
     ["1", "2", "12"],
     [[1], [2], [1, 2]]
